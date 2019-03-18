@@ -1,0 +1,21 @@
+{
+  "neopixel.create": "为连接到指定端口的给定数量的NeoPixel创建新驱动程序",
+  "neopixel.Strip.showColor": "将所有像素设置为指定的颜色并调用显示功能",
+  "neopixel.Strip.setBrigthness": "设置NeoPixel的亮度（0-255）",
+  "neopixel.HSL.rotateHue": "旋转HSL颜色的颜色值",
+  "neopixel.HSL.toRGB": "将HSL颜色转换为RGB颜色",
+  "neopixel.Strip.clear": "关闭所有NeoPixels。为了使变化生效，之后必须调用显示",
+  "neopixel.Strip.easeBrightness": "将NeoPixel的当前颜色变暗",
+  "neopixel.Strip.length": "驱动程序管理的NeoPixels数量",
+  "neopixel.Strip.range": "为指定驱动程序管理的NeoPixel间隔创建新驱动程序",
+  "neopixel.Strip.rotate": "旋转NeoPixel的颜色。 为了使变化生效，之后必须调用显示",
+  "neopixel.Strip.setPixelColor": "将指定编号的NeoPixel设置为指定的颜色。 为了使变化生效，之后必须调用显示",
+  "neopixel.Strip.setPixelWhiteLED": "设置NeoPixel指定编号的白色LED的亮度。这仅适用于 RGB+W Neopixel。 为了使变化变得可见，之后必须调用显示",
+  "neopixel.Strip.shift": "改变NeoPixel的颜色。 为了使变化生效，之后必须调用显示",
+  "neopixel.Strip.showBarGraph": "在Neopixels上显示条形图。",
+  "neopixel.Strip.showRainbow": "在NeoPixel上显示彩虹图案",
+  "neopixel.Strip.show": "将所有更改发送到NeoPixel",
+  "neopixel.hsl": "创建HSL颜色",
+  "neopixel.rgb": "创建RGB颜色",
+  "neopixel.colors": "已知的RGB颜色"
+}
