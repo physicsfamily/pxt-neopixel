@@ -216,7 +216,7 @@ namespace neopixel {
             let i = x + y * this._matrixWidth;
             this.setPixelColor(i, rgb);
         }
-        
+
         /**
          * For NeoPixels with RGB+W LEDs, set the white LED brightness. This only works for RGB+W NeoPixels.
          * @param pixeloffset position of the LED in the strip
@@ -226,7 +226,7 @@ namespace neopixel {
         //% blockGap=8
         //% weight=80
         //% parts="neopixel" advanced=true
-        setPixelWhiteLED(pixeloffset: number, white: number): void {            
+        setPixelWhiteLED(pixeloffset: number, white: number): void {
             if (this._mode === NeoPixelMode.RGBW) {
                 this.setPixelW(pixeloffset >> 0, white >> 0);
             }
@@ -538,7 +538,7 @@ namespace neopixel {
         h = Math.round(h);
         s = Math.round(s);
         l = Math.round(l);
-        
+
         h = h % 360;
         s = Math.clamp(0, 99, s);
         l = Math.clamp(0, 99, l);
